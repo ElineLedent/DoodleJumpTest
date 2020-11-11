@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdfcc4e1acb3d3845a6ccb4fced5273f, type: 3}
+  m_Name: WorldGenerator_Hard
+  m_EditorClassIdentifier: 
+  _worldWidth: 11
+  _maxSegmentsWithoutPlatform: 4
+  _platformSpawner: {fileID: 11400000, guid: 98959208d24d8874796634580fabe814, type: 2}
+  _platformWidth: 2
+  _horizontalPlatformSpacing: 0.2
+  _platformMaxHeightOffset: 0.2
+  _verticalMovementRange: 4
+  _platformSpawnProbabilities:
+  - 0.3
+  - 0.4
+  - 0.1
+  - 0.1
+  _staticPlatformProbability: 0.7
+  _horizontalMovingPlatformProbability: 0.15
+  _verticalMovingPlatformProbability: 0.15
+  _isDestructibleProbability: 0.9
+  _itemSpawner: {fileID: 11400000, guid: 2df8b0905e51c55438c425eb37139f11, type: 2}
+  _itemProbability: 0.4
+  _boosterProbability: 0.15
+  _springProbability: 0.85

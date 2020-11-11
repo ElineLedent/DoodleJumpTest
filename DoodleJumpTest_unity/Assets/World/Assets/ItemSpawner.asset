@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8757b7594b17ab140884f4d629c96e5f, type: 3}
+  m_Name: ItemSpawner
+  m_EditorClassIdentifier: 
+  _springPrefab: {fileID: 1920756727789529582, guid: bf080912c5c52ab40a728d33db8004e7, type: 3}
+  _boosterPrefab: {fileID: 2877431328589370451, guid: 22b5f51fa84cace479f6051cf12fa968, type: 3}
