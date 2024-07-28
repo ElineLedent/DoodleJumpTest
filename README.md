@@ -2,7 +2,7 @@
 
 ## How to install?
 
-* Install Unity version 2020.1.10.f1
+* Install Unity version 2022.3.31f1
 * Open project
 * Open Assets/Scenes/MainScene
 * Run in game view or device simulator
